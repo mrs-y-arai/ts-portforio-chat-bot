@@ -74,7 +74,7 @@ const userMessageStatus: Ref<string> = ref('')
 const defaultUserMessageList: TypeMessageList[] = [
   {
     type: 'recruit',
-    content: '採用を検討しているのでお話をしたい',
+    content: '採用を検討している',
   },
   {
     type: 'business',

@@ -94,7 +94,6 @@ const businessPram: number = 2
   border: 2px solid #e0b314;
   box-sizing: border-box;
   color: #e0b314;
-  font-size: 1rem;
   font-weight: 700;
   height: 100%;
   width: 90%;
@@ -103,12 +102,21 @@ const businessPram: number = 2
   margin: 0 auto;
   transition-duration: 0.5s;
 }
+@media screen and (max-width: 600px) {
+  .btn {
+    font-weight: 700;
+    line-height: 35.5px;
+  }
+}
 
 .btn:hover {
   color: #fff;
   background-color: #e0b314;
 }
 @media screen and (max-width: 600px) {
-  
+  .btn:hover {
+    color: #e0b314;
+    background-color: #fff;
+  }
 }
 </style>
